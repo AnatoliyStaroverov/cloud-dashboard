@@ -25,9 +25,7 @@ module.exports = {
   // applications, this means one entry point. For traditional multi-page apps,
   // we may have multiple entry points.
   // https://webpack.js.org/concepts#entry
-  entry: [
-    path.join(PATH_SOURCE, './index.js'),
-  ],
+  
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html",
